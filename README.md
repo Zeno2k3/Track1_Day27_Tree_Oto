@@ -44,7 +44,8 @@
 
 
 
-
 Họ quan tâm điều gì?
 Họ có thể giúp hoặc cản trở dự án thế nào?
 Hành động cụ thể của team trong 1–2 tuần tới là gì?
+
+
