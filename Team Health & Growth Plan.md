@@ -35,7 +35,10 @@ Mỗi thành viên team Tree (dự án Oto) tự chấm điểm từ 1–5 cho 4
 
 **Điểm trung bình team:** Chất lượng AI 3.0 · Tiến độ 2.7 · Tinh thần team 3.7 · Tốc độ ra sản phẩm 2.3
 
-*Căn cứ ước lượng: MVP hiện chủ yếu là CRUD + quét mã (chưa có tính năng AI sâu) → Chất lượng AI ở mức trung bình; chưa có link demo/sản phẩm (README mục "Link sản phẩm/demo" còn trống) và 2/4 stakeholder trọng tâm (IT, Thủ thư) chưa ủng hộ → Tiến độ và Tốc độ ra sản phẩm thấp hơn; RACI đã phân vai rõ ràng nhưng Hường đang kiêm 3 vai trò (Data/QA/UX) → điểm của Hường ở Tiến độ/Tốc độ ra sản phẩm thấp nhất team.*
+*Căn cứ ước lượng: MVP hiện chủ yếu là CRUD + quét mã (chưa có tính năng AI sâu) → Chất lượng AI ở mức trung bình; chưa có link demo/sản phẩm (README mục "Link sản phẩm/demo" còn trống) và 2/4 stakeholder ưu tiên (Nhân viên IT, Thủ thư) vẫn ở nhãn **Blocker** trên bản đồ Influence × Interest → Tiến độ và Tốc độ ra sản phẩm thấp hơn; RACI đã phân vai rõ ràng nhưng Hường đang kiêm 3 vai trò (Data/QA/UX) → điểm của Hường ở Tiến độ/Tốc độ ra sản phẩm thấp nhất team.*
+
+**Vấn đề ưu tiên (điểm thấp nhất):** **Tốc độ ra sản phẩm — 2.3/5**, kéo theo Tiến độ 2.7/5.
+Nguyên nhân gốc khớp với capability gap ở Trang 3: thiếu **Fullstack** (AI Engineer gánh cả kiến trúc lẫn UI) và **Hường kiêm 3 vai** Data/QA/UX. Cả 3 hành động trong Growth Plan bên dưới đều nhắm vào vấn đề này.
 
 **Cách đọc kết quả:**
 - Điểm trung bình mỗi khía cạnh **≤ 3** → cần thảo luận nguyên nhân ngay trong buổi retro (vd. Hường đang kiêm 3 vai trò Data/QA/UX nên "Tốc độ ra sản phẩm" hoặc "Tiến độ" có thể thấp).
@@ -62,6 +65,6 @@ Mỗi tuần tự dùng AI viết 1 bản spec ngắn (1 trang, theo template c�
 
 | Vấn đề | Hành động 30 ngày | Owner | Deadline | Dấu hiệu hoàn thành |
 | :--- | :--- | :--- | :--- | :--- |
-| Chưa ai trong team nắm sâu nghiệp vụ thư viện; Thủ thư chưa ủng hộ (chỉ ở vai trò Consulted) | Shadowing nửa ngày tại thư viện để ghi lại quy trình mượn/trả/phân loại sách thực tế, sau đó demo giao diện quét mã cho Thủ thư | Trần Thị Hường | 2026-09-11 | Có biên bản shadowing (quy trình thực tế bằng văn bản) + Thủ thư xác nhận đồng ý lịch demo tiếp theo bằng tin nhắn/email |
-| AI Engineer đang gánh cả kiến trúc lẫn xây UI (Fullstack gap), làm chậm tốc độ ra sản phẩm | Tìm và chốt 1 freelance/fullstack ngắn hạn theo sprint để nhận bàn giao module UI mượn/trả cơ bản | Nguyễn Đức Anh | 2026-09-18 | Có hợp đồng/thỏa thuận sprint đã ký với freelance, hoặc 1 module UI đã được bàn giao và AI Engineer review xong |
-| Chưa có link demo/sản phẩm (mục "Link sản phẩm/demo" trong README còn trống), thiếu nhịp cập nhật tiến độ chung | Mỗi thứ Sáu họp review 20 phút với cả team, bắt đầu từ tuần này (2026-09-04), cập nhật link demo/staging vào README ngay khi có bản build đầu tiên | Trần Minh Quân | 2026-09-30 (duy trì 4 buổi liên tiếp) | Có ≥4 biên bản review thứ Sáu được ghi lại + README có link demo/staging trước 2026-09-30 |
+| Chưa ai trong team nắm sâu nghiệp vụ thư viện (gap **Domain Expert**, Trang 3); Thủ thư là **Blocker** (Trang 1), trong RACI chỉ ở vai trò Consulted | Shadowing nửa ngày tại thư viện để ghi lại quy trình mượn/trả/phân loại sách thực tế, sau đó demo giao diện quét mã cho Thủ thư | Trần Thị Hường *(RACI #1 · R — Accountable là Quân)* | 2026-09-11 | Có biên bản shadowing (quy trình thực tế bằng văn bản) + Thủ thư xác nhận đồng ý lịch demo tiếp theo bằng tin nhắn/email |
+| AI Engineer đang gánh cả kiến trúc lẫn xây UI (Fullstack gap), làm chậm tốc độ ra sản phẩm | Tìm và chốt 1 freelance/fullstack ngắn hạn theo sprint để nhận bàn giao module UI mượn/trả cơ bản | Nguyễn Đức Anh *(RACI #3 · A)* | 2026-09-18 | Có hợp đồng/thỏa thuận sprint đã ký với freelance, hoặc 1 module UI đã được bàn giao và AI Engineer review xong |
+| Chưa có link demo/sản phẩm (mục "Link sản phẩm/demo" trong README còn trống), thiếu nhịp cập nhật tiến độ chung | Mỗi thứ Sáu họp review 20 phút với cả team, bắt đầu từ tuần này (2026-09-04), cập nhật link demo/staging vào README ngay khi có bản build đầu tiên | Trần Minh Quân *(RACI #1, #5 · A)* | 2026-09-30 (duy trì 4 buổi liên tiếp) | Có ≥4 biên bản review thứ Sáu được ghi lại + README có link demo/staging trước 2026-09-30 |

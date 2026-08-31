@@ -4,21 +4,21 @@
 
 **Vai trò:** Founder/PM = Trần Minh Quân · AI Engineer = Nguyễn Đức Anh · Member khác (Data/QA/UX) = Trần Thị Hường · Stakeholder = Thủ thư (user chính) & Hiệu trưởng (sponsor).
 
-| # | Công việc | Thời gian | Founder/PM<br>(Quân) | AI Engineer<br>(Đức Anh) | Member khác<br>(Hường) | Thủ thư<br>(user chính) | Hiệu trưởng<br>(sponsor) |
-| :-: | :--- | :--- | :-: | :-: | :-: | :-: | :-: |
-| 1 | **Xác định use case & chốt phạm vi MVP** (khảo sát 30–50 SV, shadowing thư viện nửa ngày) | Tuần 1–2 | **A**, R | C | R | C | I |
-| 2 | **Chuẩn bị dữ liệu** (chuẩn hóa + import Excel cũ, dán mã vạch 20% đầu sách hay mượn) | Tuần 2–5 | C | R | **A**, R | C | I |
-| 3 | **Xây MVP** (mượn/trả bằng quét mã, nhắc hạn tự động, báo cáo 1-click) | Tuần 3–6 | C | **A**, R | R | C | I |
-| 4 | **Kiểm thử** (QA nội bộ + UAT nghiệp vụ với thủ thư) | Tuần 6–7 | I | R | **A**, R | C | I |
-| 5 | **Demo/Pilot 1 kệ (hoặc 1 thể loại) trong 2 tuần** | Tuần 7–9 | **A**, R | R | R | C | I |
-| 6 | **Quyết định release toàn thư viện** | Tuần 9–10 | R | C | I | C | **A** |
+| # | Công việc | Thời gian | Founder/PM<br>(Quân) | AI Engineer<br>(Đức Anh) | Member khác<br>(Hường) | Thủ thư<br>(user chính) | Nhân viên IT<br>(kỹ thuật) | Hiệu trưởng<br>(sponsor) |
+| :-: | :--- | :--- | :-: | :-: | :-: | :-: | :-: | :-: |
+| 1 | **Xác định use case & chốt phạm vi MVP** (khảo sát 30–50 SV, shadowing thư viện nửa ngày) | Tuần 1–2 | **A**, R | C | R | C | I | I |
+| 2 | **Chuẩn bị dữ liệu** (chuẩn hóa + import Excel cũ, dán mã vạch 20% đầu sách hay mượn) | Tuần 2–5 | C | R | **A**, R | C | I | I |
+| 3 | **Xây MVP** (mượn/trả bằng quét mã, nhắc hạn tự động, báo cáo 1-click) | Tuần 3–6 | C | **A**, R | R | C | C | I |
+| 4 | **Kiểm thử** (QA nội bộ + UAT nghiệp vụ với thủ thư) | Tuần 6–7 | I | R | **A**, R | C | I | I |
+| 5 | **Demo/Pilot 1 kệ (hoặc 1 thể loại) trong 2 tuần** | Tuần 7–9 | **A**, R | R | R | C | I | I |
+| 6 | **Quyết định release toàn thư viện** | Tuần 9–10 | R | C | I | C | C | **A** |
 
 ### Giải thích các lựa chọn quan trọng
 - **Hàng 2 — A thuộc về Hường, không phải PM:** cam kết trong bản Pitch là *"việc nhập liệu là của team, không phải của thư viện"*, nên phải có 1 người chịu trách nhiệm cuối cùng về chất lượng dữ liệu. Thủ thư chỉ ở mức **C** (duyệt lại danh mục sau khi team nhập xong).
 - **Hàng 3 — A thuộc về AI Engineer:** người duy nhất chịu trách nhiệm cuối về kiến trúc và chất lượng kỹ thuật của MVP; PM là **C** để chốt thứ tự ưu tiên tính năng, tránh phình phạm vi.
 - **Hàng 4 — người xây không tự nghiệm thu:** Hường (**A**) sở hữu bộ test case và biên bản UAT, Đức Anh (**R**) sửa lỗi → giữ được tính khách quan.
 - **Hàng 6 — A thuộc về Hiệu trưởng:** đây là quyết định về ngân sách và phạm vi toàn trường, vượt thẩm quyền của team; PM chỉ **R** (làm báo cáo kết quả pilot và đề xuất). Thủ thư là **C** vì có quyền phủ quyết thực tế theo cam kết *"sau 2 tuần thấy việc nặng hơn thì team dừng ngay"*.
-- **Nhân viên IT** là **C** ở hàng 3 (thống nhất phương án tích hợp SSO/API, bảo mật) và hàng 6 (xác nhận sẵn sàng hạ tầng vận hành); **I** ở các hàng còn lại.
+- **Nhân viên IT** (Blocker ưu tiên ở Trang 1) đã được tách thành cột riêng: **C** ở hàng 3 (thống nhất phương án tích hợp SSO/API, bảo mật) và hàng 6 (xác nhận sẵn sàng hạ tầng vận hành); **I** ở các hàng còn lại — đủ để họ có tiếng nói kỹ thuật mà không chặn tiến độ MVP.
 - **Sinh viên** là **C** ở hàng 1 (khảo sát nhu cầu) và hàng 5 (feedback khi pilot); **I** ở các hàng còn lại.
 
 ### Kiểm tra quy tắc

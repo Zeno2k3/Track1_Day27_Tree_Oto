@@ -10,7 +10,7 @@
 
 ### 3. Bằng chứng (Dữ liệu & Demo hỗ trợ)
 * **Demo thực tế:** Tính năng **quét mã vạch (Barcode/QR)** chỉ mất **2 giây** để hoàn tất 1 lượt mượn/trả (nhanh gấp 3 lần so với ghi sổ giấy hoặc nhập Excel thủ công).
-* **Kết quả khảo sát:** **85%+ sinh viên** sẵn sàng tự gia hạn và tra cứu sách trên app, giúp giảm lượng thắc mắc lặp lại trực tiếp tại quầy thư viện.
+* **Chỉ tiêu đang xác nhận:** team đặt giả định **85%+ sinh viên** sẵn sàng tự gia hạn và tra cứu sách trên app (giúp giảm thắc mắc lặp lại tại quầy). Khảo sát 30–50 sinh viên đang chạy trong 1–2 tuần này để kiểm chứng — team sẽ báo cáo lại con số thực đo trước buổi demo.
 * **Cam kết từ team:** Team kỹ thuật sẽ chịu trách nhiệm toàn bộ khâu chuyển đổi dữ liệu sách cũ sang hệ thống mới và hỗ trợ kỹ thuật trực tiếp 1-1 tại thư viện.
 
 ### 4. Small Ask (Đề nghị hành động nhỏ tiếp theo)
