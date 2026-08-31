@@ -55,3 +55,13 @@ Mỗi thành viên team Tree (dự án Oto) tự chấm điểm từ 1–5 cho 4
 
 **Action trong 30 ngày:**
 Mỗi tuần tự dùng AI viết 1 bản spec ngắn (1 trang, theo template cố định: Mục tiêu – Đối tượng dùng – Luồng chính – Tiêu chí chấp nhận) cho 1 tính năng MVP sắp làm (vd. mượn/trả, nhắc hạn, báo cáo 1-click), review cùng AI Engineer trước khi triển khai. Lặp lại 4 lần trong 30 ngày để chuẩn hóa thành thói quen viết spec có AI hỗ trợ, đo bằng số lần AI Engineer phải hỏi lại yêu cầu (mục tiêu: giảm dần qua từng tuần).
+
+---
+
+## Growth Plan 30 ngày (8')
+
+| Vấn đề | Hành động 30 ngày | Owner | Deadline | Dấu hiệu hoàn thành |
+| :--- | :--- | :--- | :--- | :--- |
+| Chưa ai trong team nắm sâu nghiệp vụ thư viện; Thủ thư chưa ủng hộ (chỉ ở vai trò Consulted) | Shadowing nửa ngày tại thư viện để ghi lại quy trình mượn/trả/phân loại sách thực tế, sau đó demo giao diện quét mã cho Thủ thư | Trần Thị Hường | 2026-09-11 | Có biên bản shadowing (quy trình thực tế bằng văn bản) + Thủ thư xác nhận đồng ý lịch demo tiếp theo bằng tin nhắn/email |
+| AI Engineer đang gánh cả kiến trúc lẫn xây UI (Fullstack gap), làm chậm tốc độ ra sản phẩm | Tìm và chốt 1 freelance/fullstack ngắn hạn theo sprint để nhận bàn giao module UI mượn/trả cơ bản | Nguyễn Đức Anh | 2026-09-18 | Có hợp đồng/thỏa thuận sprint đã ký với freelance, hoặc 1 module UI đã được bàn giao và AI Engineer review xong |
+| Chưa có link demo/sản phẩm (mục "Link sản phẩm/demo" trong README còn trống), thiếu nhịp cập nhật tiến độ chung | Mỗi thứ Sáu họp review 20 phút với cả team, bắt đầu từ tuần này (2026-09-04), cập nhật link demo/staging vào README ngay khi có bản build đầu tiên | Trần Minh Quân | 2026-09-30 (duy trì 4 buổi liên tiếp) | Có ≥4 biên bản review thứ Sáu được ghi lại + README có link demo/staging trước 2026-09-30 |
